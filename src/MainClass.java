@@ -3,5 +3,7 @@ public class MainClass {
         System.out.println("Hello");
         AnotherClassOne anotherClassOne = new AnotherClassOne();
         anotherClassOne.simplePrint();
+        AnotherClass anotherClass = new AnotherClass();
+        anotherClass.printFunc();
     }
 }
